@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Coding Journey</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#current">Current</a></li>
+        <li><a href="#daily-log">Daily Log</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code-snippets">Code</a></li>
+        <li><a href="#about-me">About</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>👩🏽‍💻 My Coding Journey</h1>
+      <p>From special education to software development — follow my path as I build, learn, and grow.</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">2</span>
+          <span class="stat-label">Days Coding</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">0</span>
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Languages Learning</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="current">
+      <h2>📍 What I'm Working On</h2>
+      <div class="current-grid">
+        <div class="current-item">
+          <h3>✅ #100Devs</h3>
+          <p>Currently on week 1 - learning how to become a software engineer</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 15%"></div>
+          </div>
+          <span class="progress-text">1% Complete</span>
+        </div>
+        <div class="current-item">
+          <h3>🐍 Python Learning</h3>
+          <p>Working through print statements and Input and variables</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 30%"></div>
+          </div>
+          <span class="progress-text">3% Complete</span>
+        </div>
+        <div class="current-item">
+          <h3>🌍 Global Nomads Project</h3>
+          <p>Planning phase - creating wireframes and user stories</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 5%"></div>
+          </div>
+          <span class="progress-text">5% Complete</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="daily-log">
+      <h2>📖 Daily Learning Log</h2>
+      <div class="log-entries">
+        <article class="log-entry">
+          <div class="log-date">June 2, 2025</div>
+          <h3>CSS Grid Deep Dive</h3>
+          <div class="log-tags">
+            <span class="tag">CSS</span>
+            <span class="tag">Grid</span>
+            <span class="tag">#100Devs</span>
+          </div>
+          <p>Finally clicked with CSS Grid today! Built a responsive photo gallery and learned about grid-template-areas. The named grid lines make so much more sense now.</p>
+          <div class="log-highlights">
+            <strong>💡 Key Learning:</strong> Using grid-template-areas makes layouts way more readable
+          </div>
+        </article>
+        
+        <article class="log-entry">
+          <div class="log-date">June 1, 2025</div>
+          <h3>Python List Comprehensions</h3>
+          <div class="log-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Data Structures</span>
+          </div>
+          <p>Practiced list comprehensions today. Amazing how much cleaner the code looks compared to traditional for loops!</p>
+          <div class="log-highlights">
+            <strong>🔧 Challenge:</strong> Created a function to filter and transform data in one line
+          </div>
+        </article>
+
+        <article class="log-entry">
+          <div class="log-date">May 31, 2025</div>
+          <h3>Git Branching Strategy</h3>
+          <div class="log-tags">
+            <span class="tag">Git</span>
+            <span class="tag">Workflow</span>
+          </div>
+          <p>Learned about feature branches and merge conflicts. Made my first pull request on a practice repo!</p>
+          <div class="log-highlights">
+            <strong>🎯 Achievement:</strong> Successfully resolved my first merge conflict
+          </div>
+        </article>
+      </div>
+      <button class="load-more">Load More Entries</button>
+    </section>
+
+    <section id="projects">
+      <h2>🛠 Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/project-placeholder.jpg" alt="Portfolio Website Screenshot" />
+          </div>
+          <div class="project-content">
+            <h3>Personal Portfolio</h3>
+            <p>My first website built from scratch using HTML, CSS, and JavaScript</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-secondary">Live Demo</a>
+              <a href="#" class="btn-primary">View Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/project-placeholder.jpg" alt="Calculator App Screenshot" />
+          </div>
+          <div class="project-content">
+            <h3>Calculator App</h3>
+            <p>JavaScript calculator with history feature and keyboard support</p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">CSS Grid</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-secondary">Live Demo</a>
+              <a href="#" class="btn-primary">View Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card coming-soon">
+          <div class="project-content">
+            <h3>Global Nomads Platform</h3>
+            <p>Full-stack application for digital nomads to find workspaces and connect</p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+            </div>
+            <div class="coming-soon-label">Coming Soon</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>🎯 Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-item">
+            <span class="skill-name">HTML</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%"></div>
+            </div>
+            <span class="skill-level">Intermediate</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">CSS</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 60%"></div>
+            </div>
+            <span class="skill-level">Learning</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 40%"></div>
+            </div>
+            <span class="skill-level">Beginner</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="skill-item">
+            <span class="skill-name">Python</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 35%"></div>
+            </div>
+            <span class="skill-level">Beginner</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Node.js</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 10%"></div>
+            </div>
+            <span class="skill-level">Just Started</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Tools</h3>
+          <div class="tools-badges">
+            <span class="tool-badge">Git</span>
+            <span class="tool-badge">VS Code</span>
+            <span class="tool-badge">Chrome DevTools</span>
+            <span class="tool-badge">Figma</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="code-snippets">
+      <h2>💻 Code Snippets & Solutions</h2>
+      <div class="snippets-grid">
+        <div class="snippet-card">
+          <h3>CSS Grid Auto-Fit Layout</h3>
+          <div class="snippet-meta">
+            <span class="snippet-language">CSS</span>
+            <span class="snippet-date">May 28, 2025</span>
+          </div>
+          <pre><code>.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}</code></pre>
+          <p>Perfect for responsive card layouts that adapt to any screen size!</p>
+        </div>
+
+        <div class="snippet-card">
+          <h3>Python List Comprehension</h3>
+          <div class="snippet-meta">
+            <span class="snippet-language">Python</span>
+            <span class="snippet-date">June 1, 2025</span>
+          </div>
+          <pre><code># Filter and transform in one line
+squares = [x**2 for x in range(10) if x % 2 == 0]
+# Result: [0, 4, 16, 36, 64]</code></pre>
+          <p>Clean way to create lists with filtering and transformation.</p>
+        </div>
+
+        <div class="snippet-card">
+          <h3>JavaScript Array Methods Chain</h3>
+          <div class="snippet-meta">
+            <span class="snippet-language">JavaScript</span>
+            <span class="snippet-date">May 25, 2025</span>
+          </div>
+          <pre><code>const result = data
+  .filter(item => item.active)
+  .map(item => item.name)
+  .sort();</code></pre>
+          <p>Powerful combination of filter, map, and sort for data processing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="resources">
+      <h2>📚 Learning Resources</h2>
+      <div class="resources-grid">
+        <div class="resource-category">
+          <h3>🎥 Courses & Tutorials</h3>
+          <ul>
+            <li><a href="#">#100Devs - Leon Noel</a> ⭐⭐⭐⭐⭐</li>
+            <li><a href="#">FreeCodeCamp Python Course</a> ⭐⭐⭐⭐</li>
+            <li><a href="#">CSS Grid Garden</a> ⭐⭐⭐⭐⭐</li>
+          </ul>
+        </div>
+        <div class="resource-category">
+          <h3>📖 Documentation</h3>
+          <ul>
+            <li><a href="#">MDN Web Docs</a></li>
+            <li><a href="#">Python.org Documentation</a></li>
+            <li><a href="#">CSS-Tricks</a></li>
+          </ul>
+        </div>
+        <div class="resource-category">
+          <h3>🎧 Podcasts</h3>
+          <ul>
+            <li><a href="#">Syntax.fm</a></li>
+            <li><a href="#">CodeNewbie</a></li>
+            <li><a href="#">Python Bytes</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="challenges">
+      <h2>🏆 Challenges & Solutions</h2>
+      <div class="challenges-grid">
+        <div class="challenge-card">
+          <h3>Week 3 Challenge: Responsive Navigation</h3>
+          <div class="challenge-difficulty">Difficulty: ⭐⭐⭐</div>
+          <p><strong>Problem:</strong> Create a mobile-first navigation that transforms into a hamburger menu on smaller screens.</p>
+          <p><strong>Solution:</strong> Used CSS media queries and JavaScript to toggle menu visibility.</p>
+          <div class="challenge-learnings">
+            <strong>Key Learnings:</strong> Mobile-first approach, event listeners, CSS transforms
+          </div>
+          <a href="#" class="btn-secondary">View Solution</a>
+        </div>
+
+        <div class="challenge-card">
+          <h3>Python Challenge: Data Analysis</h3>
+          <div class="challenge-difficulty">Difficulty: ⭐⭐⭐⭐</div>
+          <p><strong>Problem:</strong> Analyze CSV data to find patterns and create visualizations.</p>
+          <p><strong>Solution:</strong> Used pandas for data manipulation and matplotlib for charts.</p>
+          <div class="challenge-learnings">
+            <strong>Key Learnings:</strong> Data cleaning, statistical analysis, visualization
+          </div>
+          <a href="#" class="btn-secondary">View Solution</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <h2>📅 Timeline Highlights</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">June 2025</div>
+          <div class="timeline-content">
+            <h3>Started #100Devs</h3>
+            <p>Began my structured learning journey with Leon Noel's bootcamp</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">June 2025</div>
+          <div class="timeline-content">
+            <h3>First Website Launch</h3>
+            <p>Built and deployed my personal portfolio using HTML, CSS, and JavaScript</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">June 2025</div>
+          <div class="timeline-content">
+            <h3>Hello World</h3>
+            <p>Wrote my first line of code and fell in love with problem-solving</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-me">
+      <h2>👋 About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hi! I'm a former special education teacher turned aspiring software developer.  
+            I started my coding journey in June 2025 with the #100Devs challenge, eager to build new skills in HTML, CSS, and JavaScript.  
+          </p>
+          <p>
+            My passion is creating meaningful projects that combine creativity and problem-solving.  
+            Follow along as I learn, build, and share my growth in tech!
+          </p>
+          <div class="about-highlights">
+            <div class="highlight">
+              <span class="highlight-number">5+</span>
+              <span class="highlight-text">Years Teaching</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-number">100+</span>
+              <span class="highlight-text">Hours Coding</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-number">∞</span>
+              <span class="highlight-text">Curiosity Level</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-photo">
+          <img src="images/profile-photo.jpg" alt="Profile photo" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Let's Connect</h3>
+        <ul class="social-links">
+          <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
+          <li><a href="https://twitter.com/yourusername" target="_blank">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#daily-log">Daily Log</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <p>&copy; 2025 My Coding Journey | Built with ❤️ and lots of ☕</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
